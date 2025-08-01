@@ -1,0 +1,94 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+
+    background-image: url('https://t4.ftcdn.net/jpg/09/12/10/25/360_F_912102578_dpR2r8IstjbBzQWgn2dAegf6SE2gDPNT.jpg'); /* Paste your image URL here */
+    background-size: cover; /* This makes the image cover the entire body area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed;
+   
+}
+
+
+
+main {
+    max-width: 900px;
+    margin: 20px auto; 
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+header {
+    text-align: center; 
+    margin-bottom: 30px; 
+}
+
+header h1 {
+    color: gold ;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-style: italic; 
+    color: lightgray; 
+}
+
+
+h2 {
+    color: #B8860B; 
+    border-bottom: 2px solid #eee; 
+    padding-bottom: 5px;
+    margin-top: 40px; 
+    margin-bottom: 20px; 
+}
+
+
+ul, ol {
+    margin-bottom: 20px; 
+    padding-left: 25px; 
+}
+
+ul li, ol li {
+    margin-bottom: 10px; 
+}
+
+
+/* Image Section Container Styles */
+#recipe-image {
+    text-align: center; /* This centers inline content (like img if not block) within this section */
+    margin-bottom: 30px; 
+    margin-top: 20px; 
+    /* REMOVE display: flex;, justify-content: center;, align-items: center;, width: 100%;, and margin: 20px auto; from here */
+}
+
+/* Image Styles - Within the #recipe-image section */
+#recipe-image img {
+    display: block; /* ADD THIS BACK: Makes the image behave like a block element */
+    margin: 0 auto; /* ADD THIS BACK: This centers the block-level image itself horizontally */
+    max-width: 100%;           
+    height: auto;              
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 0.9em;
+    color: white;
+    border-top: 1px solid #ddd;
+}
